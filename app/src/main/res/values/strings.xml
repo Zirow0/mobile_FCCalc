@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">FC CALC</string>
+
+    <!-- Main Screen -->
+    <string name="main_title">FC CALC</string>
+    <string name="main_subtitle">Професійний калькулятор для електротехнічних розрахунків</string>
+    <string name="cable_selection_title">ВИБІР КАБЕЛІВ</string>
+    <string name="cable_selection_subtitle">Для живлення підстанції</string>
+    <string name="sc_gpp_title">СТРУМИ КЗ НА ШИНАХ ГПП</string>
+    <string name="sc_gpp_subtitle">Розрахунок струмів КЗ</string>
+    <string name="substation_title">СТРУМИ КЗ ПІДСТАНЦІЇ</string>
+    <string name="substation_subtitle">Для різних режимів роботи</string>
+    <string name="footer_version">FC Calc v1.0</string>
+    <string name="footer_android">Android 10+</string>
+    <string name="footer_copyright">© 2024</string>
+
+    <!-- Cable Selection Screen -->
+    <string name="cable_input_title">ВИБІР КАБЕЛІВ</string>
+    <string name="cable_input_info">Для двотрансформаторної ТП напругою 10 кВ</string>
+    <string name="nominal_voltage">Номінальна напруга, кВ</string>
+    <string name="transformer_power">Потужність ТП, кВ·А</string>
+    <string name="calculated_load">Розрахункове навантаження, кВ·А</string>
+    <string name="max_usage_time">Час використання максимуму, год</string>
+    <string name="short_circuit_current">Струм КЗ, кА</string>
+    <string name="switching_time">Фіктивний час вимикання, с</string>
+    <string name="calculate_button">РОЗРАХУВАТИ</string>
+
+    <!-- Cable Result Screen -->
+    <string name="input_data_title">ВХІДНІ ДАНІ</string>
+    <string name="intermediate_calc_title">ПРОМІЖНІ РОЗРАХУНКИ</string>
+    <string name="result_title">РЕЗУЛЬТАТ</string>
+    <string name="calculated_current">Розрахунковий струм:</string>
+    <string name="economic_density">Економічна густина:</string>
+    <string name="economic_cross_section">Економічний переріз:</string>
+    <string name="thermal_coefficient">Термічний коефіцієнт:</string>
+    <string name="min_cross_section">Мінімальний переріз:</string>
+    <string name="recommended_cable">Рекомендований кабель:</string>
+    <string name="back_to_main">НА ГОЛОВНУ</string>
+
+    <!-- Task 2: SC GPP -->
+    <string name="sc_gpp_input_title">СТРУМИ КЗ НА ШИНАХ ГПП</string>
+    <string name="sc_gpp_info">Розрахунок трифазного КЗ на шинах 10 кВ ГПП</string>
+    <string name="short_circuit_power">Потужність КЗ на вході, МВ·А</string>
+    <string name="transformer_voltage_percent">Напруга КЗ трансформатора, %</string>
+    <string name="transformer_power_mva">Потужність трансформатора, МВ·А</string>
+    <string name="system_resistance">Опір системи:</string>
+    <string name="transformer_resistance">Опір трансформатора:</string>
+    <string name="total_resistance">Сумарний опір:</string>
+    <string name="short_circuit_current_result">Струм трифазного КЗ:</string>
+
+    <!-- Task 3: Substation -->
+    <string name="substation_input_title">СТРУМИ КЗ ПІДСТАНЦІЇ</string>
+    <string name="substation_info">Розрахунок струмів КЗ для нормального та мінімального режимів</string>
+    <string name="transformer_parameters">ПАРАМЕТРИ ТРАНСФОРМАТОРА</string>
+    <string name="transformer_power_kva">Потужність трансформатора, кВ·А</string>
+    <string name="voltage_high">Напруга ВН, кВ</string>
+    <string name="voltage_low">Напруга НН, кВ</string>
+    <string name="voltage_short_circuit">Напруга КЗ U_к.max, %</string>
+    <string name="normal_mode">НОРМАЛЬНИЙ РЕЖИМ</string>
+    <string name="resistance_normal">Опір R_с.н, Ом</string>
+    <string name="reactance_normal">Реактивний опір X_с.н, Ом</string>
+    <string name="min_mode">МІНІМАЛЬНИЙ РЕЖИМ</string>
+    <string name="resistance_min">Опір R_с.min, Ом</string>
+    <string name="reactance_min">Реактивний опір X_с.min, Ом</string>
+    <string name="common_parameters">ЗАГАЛЬНІ ПАРАМЕТРИ</string>
+    <string name="transformer_resistance_result">Опір трансформатора:</string>
+    <string name="reduction_coefficient">Коефіцієнт приведення:</string>
+    <string name="normal_mode_results">НОРМАЛЬНИЙ РЕЖИМ</string>
+    <string name="min_mode_results">МІНІМАЛЬНИЙ РЕЖИМ</string>
+    <string name="resistance_result">Опір:</string>
+    <string name="reactance_result">Реактивний опір:</string>
+    <string name="impedance_result">Повний опір:</string>
+
+    <!-- Common -->
+    <string name="back">Назад</string>
+    <string name="error_invalid_input">Будь ласка, заповніть всі поля коректно</string>
+    <string name="calculate">РОЗРАХУВАТИ</string>
+    <string name="clear">ОЧИСТИТИ</string>
+    <string name="input_parameters">ВХІДНІ ПАРАМЕТРИ</string>
+</resources>
